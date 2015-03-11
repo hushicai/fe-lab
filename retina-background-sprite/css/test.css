@@ -1,0 +1,23 @@
+/**
+ * @file test.css
+ * @author hushicai02(hushicai02@baidu.com)
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.sprite {
+    background: url(../img/sprite.png) no-repeat;
+    background-size: 180px 183px;
+}
+.sprite-1 {
+    width: 127px;
+    height: 92px;
+    background-position: 0 0;
+}
+.sprite-2 {
+    width: 180px;
+    height: 79px;
+    background-position: 0 -107px;
+}
