@@ -1,0 +1,17 @@
+{
+  "name": "retina-background-sprite",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hushicai <bluthcy@gmail.com> (http://hushicai.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "css-sprite": "^0.9.6",
+    "gulp": "^3.8.11",
+    "gulp-htmlmin": "^1.1.1",
+    "gulp-if": "^1.2.5"
+  }
+}

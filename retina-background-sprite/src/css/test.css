@@ -1,0 +1,21 @@
+/**
+ * @file test.css
+ * @author hushicai02(hushicai02@baidu.com)
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.icon-empty-for-doctors {
+    width: 127px;
+    height: 92px;
+    background: url(../img/empty-for-doctors.png);
+    background-size: 127px 92px;
+}
+.icon-empty-for-home {
+    width: 180px;
+    height: 79px;
+    background: url(../img/empty-for-home.png);
+    background-size: 180px 79px;
+}
