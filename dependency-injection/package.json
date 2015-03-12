@@ -1,0 +1,14 @@
+{
+  "name": "dependency-injection",
+  "version": "0.0.0",
+  "description": "",
+  "main": "biz.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hushicai <bluthcy@gmail.com> (http://hushicai.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "expect.js": "^0.3.1"
+  }
+}
