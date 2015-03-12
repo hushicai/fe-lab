@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>远程调试</title>
+    <link rel="stylesheet" href="./test.css" />
+</head>
+<body>
+    <p>123</p>
+    <script src="http://172.20.134.222:8888/target/target-script-min.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+        $.getJSON('./test.json').done(function (data) {
+            console.log(data);
+        });
+    </script>
+</body>
+</html>
+
