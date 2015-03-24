@@ -23,6 +23,7 @@ var EventEmitter = require('events').EventEmitter;
 finder.__proto__ = EventEmitter.prototype;
 processor.__proto__ = EventEmitter.prototype;
 
+// 
 finder.on('done', function (records) {
     processor.run(records);
 });

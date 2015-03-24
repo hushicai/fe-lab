@@ -1,5 +1,3 @@
-
-
 function finder(records, cb) {
     setTimeout(function () {
         records.push(3, 4);
